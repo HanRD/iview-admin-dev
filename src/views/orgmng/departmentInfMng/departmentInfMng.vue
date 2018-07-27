@@ -199,5 +199,7 @@
 </script>
 
 <style scoped>
-
+    .scrollablecontent::-webkit-scrollbar{
+        display:none
+    }
 </style>

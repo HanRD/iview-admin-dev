@@ -24,21 +24,26 @@
         <div id="table">
             <Table :columns="messagetablecolumn" :data="messagetabledata" v-bind:border="true" height=400></Table>
         </div>
-        <Button type="error" @click="modal1=true" long>弹窗测试，记得删掉</Button>
+            <Row type="flex" justify="end" :gutter="12">
+                <Col><Button type="primary" @click="newMessage=true">新建微信消息</Button></Col>
+                <Col><Button type="primary" @click="observemessage">查看微信消息</Button></Col>
+            </Row>
         </Card>
         </div>
-        <div style="padding: 10px">
+        <transition name="fade">
+        <div v-if="newMessage" style="padding: 10px">
             <Card>
             <Row :gutter="12">
                 <Col span="20">
                     <Form>
                         <FormItem label="收信人:">
-                            <Input type="text"/>
+                            <Input type="text" placeholder="请输入收件人信息或从右侧列表中选择收件人"/>
                         </FormItem>
                         <FormItem>
                             <Input type="textarea" placeholder="请输入信息内容"/>
                         </FormItem>
                     </Form>
+
                 </Col>
                 <Col span="4">
                     <div style="overflow:auto;">
@@ -47,7 +52,7 @@
                 </Col>
             </Row>
             </Card>
-        </div>
+        </div></transition>
         <Modal v-model="modal1" width="60%">
             <div slot="header" style="font-size:15px;"><b>条目明细</b>
             </div>
@@ -55,13 +60,13 @@
                 <Row :gutter="12">
                     <Col id="contacttable_container" span="16">
                         接收人:
-                        <Table :columns="contacttablecolumn" :data="contacttabledata" height=332></Table>
+                        <Table :columns="contacttablecolumn" :data="contacttabledata" height=232></Table>
                     </Col>
                     <Col id="contacttree_container" span="8">
                         <transition name="fade">
                         <div v-if="showtree">
                             接收人选择:
-                            <div style="height:300px;overflow:auto">
+                            <div style="height:200px;overflow:auto">
                             <Tree :data="contactTree" v-bind:show-checkbox="true"></Tree>
                             </div>
                             <Button long>确定</Button>
@@ -69,9 +74,25 @@
                         </transition>
                     </Col>
                 </Row>
-
+                <Row>
+                    <Col :lg="16">
                 内容:
-                <Input type="textarea" readonly="" />
+                        <Input type="textarea" readonly="" v-bind:rows="5" /></Col>
+                    <Col :lg="8">
+                        审核状态:
+                        <Card>
+                        <p>微信状态: {{wxmessage.status}}</p>
+                        <Row>
+                            <Col :lg="8"><p>提交人: {{wxmessage.submitinf.submitby}}</p></Col>
+                            <Col :lg="16"><p>提交时间: {{wxmessage.submitinf.submittime}}</p></Col>
+                        </Row>
+                        <Row>
+                            <Col :lg="8"><p>审核人: {{wxmessage.inspectinf.inspectby}}</p></Col>
+                            <Col :lg="16"><p>审核时间:{{wxmessage.inspectinf.inspecttime}}</p></Col>
+                        </Row>
+                        <p>退回原因: {{wxmessage.rejectreason}}</p></Card>
+                    </Col>
+                </Row>
             </div>
             <div slot="footer">
                 <ButtonGroup long>
@@ -89,10 +110,9 @@
         name: "wxMessageMng",
         data:function(){
             return{
+                newMessage:false,   //控制新建微信信息窗口
                 showtree:false,
-                showborder:true,
-                showCheckbox:true,
-                modal1:false,
+                modal1:false,       //控制信息明细弹窗
                 query:{
                     sendto:"",
                   submittime:[],
@@ -109,12 +129,19 @@
                         status:"",
                         submitinf:{submitby:"",submittime:""},
                         inspectinf:{inspectby:"",inspecttime:""},
-                        reason:""
+                        rejectreason:""
 
             },
-                messagetablecolumn:[{value:"id",title:"微信编号",width:100},{value:"content",title:"微信内容"},{value:"status",title:"状态",width:100}],
+                messagetablecolumn:[
+                    {key:"id",title:"微信编号",width:100},
+                    {key:"content",title:"微信内容"},
+                    {key:"status",title:"状态",width:100}],
                 messagetabledata:this.mockwxTableData(),
-                contacttablecolumn:[{value:"id",title:"编号"},{value:"name",title:"姓名"},{value:"company",title:"所属机构"},{value:"status",title:"状态"}],
+                contacttablecolumn:[
+                    {key:"id",title:"编号"},
+                    {key:"name",title:"姓名"},
+                    {key:"company",title:"所属机构"},
+                    {key:"status",title:"状态"}],
                 contacttabledata:[{},{},{},{},{},{},{},{},{}],
                 wxstatuslist:[{value:"status1",title:"新提交/待审核"},{value:"status2",title:"审核通过/生效"},{value:"status3",title:"审核退回/待修改"}],
                 contactTree:[]
@@ -142,6 +169,9 @@
             },
             showcheckednodes(){
                 console.log(this.$refs.contactTree.getCheckedNodes())
+            },
+            observemessage(){
+                this.modal1=true;
             }
         },
         mounted(){

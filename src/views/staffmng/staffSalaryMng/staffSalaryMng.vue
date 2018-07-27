@@ -38,7 +38,7 @@
                             <Row :gutter="12">
                                 <Col span="12">
                                     <FormItem label='维护公司:'>
-                                        <Select label='supident' v-model="defaultorganization" style="width:100%" @on-change="observechange" label-in-value=true>
+                                        <Select label='supident' v-model="defaultorganization" style="width:100%" @on-change="observechange" v-bind:label-in-value="true">
                                             <Option v-for="item in organizationlist" :value="item.value" :key="item.value">{{ item.title }}</Option>
                                         </Select>
                                     </FormItem>

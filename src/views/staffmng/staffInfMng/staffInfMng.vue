@@ -16,8 +16,8 @@
                 <div style="padding: 10px">
                 <Card><div>
         <div id="query">
-            <Form :model="query" :label-width=60 label-position="left" inline>
-                <Row :gutter="12">
+            <Form :model="query" justify="space-between" :label-width=60 label-position="left" inline>
+                <Row type="flex" :gutter="12">
                     <Col span="12">
                 <FormItem prop="username" label="用户名:">
                    <Input type="text" v-model="query.username"/>
@@ -29,19 +29,19 @@
                 </FormItem>
                     </Col>
                 </Row>
-                <Row :gutter="12">
+                <Row type="flex" justify="space-between" :gutter="12">
                     <Col span="12">
                 <FormItem prop="mobile" label="手机号:">
                     <Input type="text" v-model="query.mobile"/>
                 </FormItem>
                     </Col>
-                    <Col span="6">
+                    <Col span="8">
                 <FormItem prop="station" label="台站:">
                     <Select v-model="query.station">
                         <Option v-for="item in stationList" :key="item.value" :value="item.value">{{item.title}}</Option>
                     </Select>
                 </FormItem></Col>
-                        <Col span="2">
+                        <Col>
                         <Button type="primary" @on-click="search">查询</Button>
                     </Col>
                 </Row>
@@ -110,13 +110,13 @@
             <Col span="12">
                 <div style="padding: 0 10px">
                     <Card>
-                        <Row>
-                            <Col span="12">
+                        <Row type="flex" justify="space-between">
+                            <Col>
                     <Select placeholder="选择服务类别">
                         <Option v-for="item in tablelist" :key="item.value" :value="item.value">{{item.title}}</Option>
                     </Select>
                             </Col>
-                            <Col span="2" offset="9">
+                            <Col>
                                 <Button type="primary">重新设置</Button>
                             </Col>
                         </Row>
@@ -127,9 +127,9 @@
             <Col span="12">
                 <div style="padding: 0 10px 0 10px">
                     <Card>
-                        <Row>
-                            <Col span="12"><p>维护任务级别匹配信息</p></Col>
-                            <Col span="3" offset="8"><p><Button type="primary">重设任务级别</Button></p></Col>
+                        <Row type="flex" justify="space-between">
+                            <Col><p>维护任务级别匹配信息</p></Col>
+                            <Col><p><Button type="primary">重设任务级别</Button></p></Col>
                         </Row>
                         <Table :columns="tasklevelTableColumns" :data="tasklevelTableData" height=270></Table>
                     </Card>
@@ -194,16 +194,23 @@
                 ],
                 stationList:[{value:"station1",title:"台站1"},{value:"station2",title:"台站2"},{value:"station3",title:"台站3"}],
                 tablecolumns:[
-                    {value:"username",title:"用户名"},
-                    {value:"name",title:"姓名"},
-                    {value:"oplevel",title:"技术等级"},
-                    {value:"status",title:"人员审核状态"},
-                    {value:"company",title:"维护公司"}
+                    {key:"username",title:"用户名"},
+                    {key:"name",title:"姓名"},
+                    {key:"oplevel",title:"技术等级"},
+                    {key:"status",title:"人员审核状态"},
+                    {key:"company",title:"维护公司"}
                     ],
                 tablelist:[{value:"maintenance",title:"维护台站信息"},{value:"repair",title:"维修台站信息"},{value:"calibrationstation",title:"标定台站信息"}],
-                stationTableColumn:[{value:"No",title:"序号"},{value:"stationID",title:"台站编号"},{value:"stationName",title:"台站名称"},{value:"department",title:"所属气象局"}],
+                stationTableColumn:[
+                    {key:"No",title:"序号"},
+                    {key:"stationID",title:"台站编号"},
+                    {key:"stationName",title:"台站名称"},
+                    {key:"department",title:"所属气象局"}],
                 stationTableData:[{},{},{},{},{},{},{},{},{}],
-                tasklevelTableColumns:[{value:"No",title:"序号"},{value:"maintenanceCategory",title:"维护类别"},{value:"tasklevel",title:"任务级别"}],
+                tasklevelTableColumns:[
+                    {key:"No",title:"序号"},
+                    {key:"maintenanceCategory",title:"维护类别"},
+                    {key:"tasklevel",title:"任务级别"}],
                 tasklevelTableData:[{},{},{},{},{},{},{}],
                 tabledata:[{},{},{},{},{},{},{}],
                 staffdata:{

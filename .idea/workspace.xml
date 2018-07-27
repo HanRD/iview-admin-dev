@@ -5,367 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab13b27a-87d6-4d75-a7c8-0ea10c98896d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hanrd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/iview-admin-dev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README_EN.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.base.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.dev.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.prod.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/access.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/article-publish.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/count-to.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/dragable-list.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/dragable-table.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/editable-table.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/error-page.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/exportable-table.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/home.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/image-editor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/locking.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/message.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/page-tags.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/sidebarmenu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/split-pane.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/table2image.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/theme.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/upload.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-gif/workflow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/cropper-test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/wqxmp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/table2excel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locale/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locale/locale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/common.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/loading.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/vendors.base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendors/vendors.exten.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/access/access-test.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/access/access.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/access/access.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/advanced-router/advanced-router.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/advanced-router/argument-page.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/advanced-router/component/expandRow.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/advanced-router/component/order-info.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/advanced-router/component/shopping-info.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/advanced-router/mutative-router.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error-page/403.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error-page/403.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error-page/404.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error-page/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error-page/500.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error-page/500.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error-page/error-page.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error-page/error-page.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/form/article-publish/article-publish.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/form/article-publish/article-publish.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/form/article-publish/preview.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/form/article-publish/preview.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/form/work-flow/work-flow.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/form/work-flow/work-flow.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/countUp.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/dataSourcePie.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/inforCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/map.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/mapDataTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/serviceRequests.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/styles/infor-card.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/styles/to-do-list-item.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/toDoListItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/userFlow.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/components/visiteVolume.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/home.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/map-data/china.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/map-data/get-city-value.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/map-data/get-geography-value.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/map-data/get-style-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/international/international.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/international/international.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/breadcrumb-nav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/fullscreen.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/lockscreen/components/locking-page.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/lockscreen/components/unlock.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/lockscreen/lockscreen.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/lockscreen/styles/unlock.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/message-tip.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/shrinkable-menu/components/sidebarMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/shrinkable-menu/components/sidebarMenuShrink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/shrinkable-menu/shrinkable-menu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/shrinkable-menu/styles/menu.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/tags-page-opened.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/theme-switch/theme-switch.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/theme-switch/theme/g.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/theme-switch/theme/r.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main-components/theme-switch/theme/y.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedocmng.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/message/message.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/message/message.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/area-linkage/area-linkage.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/area-linkage/area-linkage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/area-linkage/components/al-cascader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/area-linkage/components/al-selector.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/area-linkage/util/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/count-to/CountTo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/count-to/count-to.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/count-to/count-to.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/draggable-list/draggable-list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/draggable-list/draggable-list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/file-upload/file-upload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/file-upload/upload.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/image-editor/cropper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/image-editor/image-editor.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/image-editor/image-editor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/markdown-editor/markdown-editor.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/markdown-editor/markdown-editor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/markdown-editor/simplemde.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/scroll-bar/scroll-bar-page.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/scroll-bar/vue-scroller-bars/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/scroll-bar/vue-scroller-bars/scroll-bar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/scroll-bar/vue-scroller-bars/scroll-bar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/split-pane/split-pane-page.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/split-pane/split-pane/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/split-pane/split-pane/split-pane.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/split-pane/split-pane/split-pane.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/text-editor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/langs/en_GB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/langs/zh_CN.GB2312.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/advlist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/advlist/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/anchor/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/anchor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autolink/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autolink/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autoresize/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autoresize/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autosave/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autosave/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/bbcode/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/bbcode/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/charmap/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/charmap/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/code/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/code/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/code/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/codesample/css/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/codesample/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/codesample/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/colorpicker/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/colorpicker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/contextmenu/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/contextmenu/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/directionality/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/directionality/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/fullpage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/fullpage/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/fullscreen/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/fullscreen/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/help/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/help/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/help/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/help/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/hr/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/hr/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/image/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/image/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/image/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/imagetools/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/imagetools/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/importcss/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/importcss/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/insertdatetime/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/insertdatetime/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/legacyoutput/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/legacyoutput/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/link/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/link/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/link/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/lists/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/lists/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/media/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/media/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/media/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/nonbreaking/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/nonbreaking/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/noneditable/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/noneditable/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/pagebreak/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/pagebreak/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/paste/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/paste/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/preview/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/preview/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/print/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/print/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/print/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/save/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/save/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/save/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/searchreplace/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/searchreplace/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/spellchecker/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/spellchecker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/tabfocus/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/tabfocus/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/table/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/table/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/table/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/template/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/template/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/template/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/textcolor/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/textcolor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/textpattern/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/textpattern/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/toc/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/toc/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/visualblocks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/visualblocks/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/visualchars/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/visualchars/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/wordcount/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/wordcount/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/skins/lightgray/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/themes/inlite/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/themes/inlite/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/themes/inlite/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/themes/modern/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/themes/modern/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/my-components/text-editor/tinymce/themes/modern/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/orgmng/departmentInfMng/departmentInfMng.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/own-space/own-space.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/own-space/own-space.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/reportMNG/reportMNG.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/systemMng/systemOperatorMng/systemOperatorMng.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/components/ExportExcel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/components/canEditTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/components/dragableTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/components/editable-table.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/components/multiPageTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/components/table.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/components/table_data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/data/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/data/table2csv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/data/table2excel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/dragable-table.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/editable-table.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/exportable-table.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/searchable-table.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/tables/table-to-image.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/wxMessageMng/wxMessageMng.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/td_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mapsample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/orgmng/departmentInfMng/departmentInfMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/orgmng/departmentInfMng/departmentInfMng.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/wxMessageMng/wxMessageMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/wxMessageMng/wxMessageMng.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -379,14 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wxMessageMng.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wxMessageMng.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/wxMessageMng/wxMessageMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+            <state relative-caret-position="701">
+              <caret line="173" column="33" selection-start-line="173" selection-start-column="33" selection-end-line="173" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#transition#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#Card#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#transition#0;n#Col#1;n#Row#0;n#div#1;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -395,29 +43,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Main.vue">
+      <file leaf-file-name="stationMng.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="-82">
+              <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#div#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/main.less">
+      <file leaf-file-name="maintenanceOrgMng.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme-switch.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/main-components/theme-switch/theme-switch.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="243">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#Modal#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#p#0;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#Form#0;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -425,8 +75,8 @@
       <file leaf-file-name="staffInfMng.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
+            <state relative-caret-position="-675">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -439,20 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/home/home.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1317">
-              <caret line="184" selection-start-line="184" selection-end-line="184" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="staffSalaryMng.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="-4023">
+              <caret line="40" column="168" selection-start-line="40" selection-start-column="168" selection-end-line="40" selection-end-column="168" />
             </state>
           </provider>
         </entry>
@@ -460,8 +101,8 @@
       <file leaf-file-name="maintenancedocmng.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedocmng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+            <state relative-caret-position="80">
+              <caret line="144" column="23" lean-forward="true" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i-table#0;n#div#1;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -470,26 +111,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maintenancedoc.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue">
+      <file leaf-file-name="departmentInfMng.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/orgmng/departmentInfMng/departmentInfMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-568">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="systemOperatorMng.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemOperatorMng/systemOperatorMng.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+            <state relative-caret-position="-4510">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#Modal#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="94" column="163" selection-start-line="94" selection-start-column="163" selection-end-line="94" selection-end-column="163" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maintenancedoc.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -519,14 +169,17 @@
         <option value="$PROJECT_DIR$/src/views/home/components/inforCard.vue" />
         <option value="$PROJECT_DIR$/src/views/reportMNG/reportMNG.vue" />
         <option value="$PROJECT_DIR$/src/views/main-components/lockscreen/components/unlock.vue" />
-        <option value="$PROJECT_DIR$/src/views/orgmng/departmentInfMng/departmentInfMng.vue" />
-        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/views/systemMng/systemOperatorMng/systemOperatorMng.vue" />
-        <option value="$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue" />
-        <option value="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" />
         <option value="$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue" />
         <option value="$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedocmng.vue" />
+        <option value="$PROJECT_DIR$/src/views/orgmng/departmentInfMng/departmentInfMng.vue" />
+        <option value="$PROJECT_DIR$/src/views/stationInfRevise/stationInfRevise.vue" />
+        <option value="$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/views/wxMessageMng/wxMessageMng.vue" />
+        <option value="$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue" />
+        <option value="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" />
+        <option value="$PROJECT_DIR$/src/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue" />
       </list>
     </option>
   </component>
@@ -558,12 +211,15 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -571,20 +227,14 @@
               <item name="iview-admin-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="iview-admin-dev" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="iview-admin-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iview-admin-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="r&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;staff&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/staffmng/staffInfMng/staffInfMng.vue&#10;tree&#9;FILE&#9;file://D:/vue/iview-admin-dev/node_modules/iview/src/components/tree/tree.vue&#10;depar&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/orgmng/departmentInfMng/departmentInfMng.vue&#10;router&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;router.js&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;menuList&#9;null&#9;null&#10;shrinka&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/main-components/shrinkable-menu/shrinkable-menu.vue&#10;app&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/app.vue&#10;changemenutheme&#9;null&#9;null&#10;addopen&#9;null&#9;null&#10;resize&#9;null&#9;null&#10;shrinkable-menu&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/main-components/shrinkable-menu/shrinkable-menu.vue&#10;env&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="rou&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;stationTa&#9;null&#9;null&#10;examinety&#9;null&#9;null&#10;r&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;staff&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/staffmng/staffInfMng/staffInfMng.vue&#10;tree&#9;FILE&#9;file://D:/vue/iview-admin-dev/node_modules/iview/src/components/tree/tree.vue&#10;depar&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/orgmng/departmentInfMng/departmentInfMng.vue&#10;router&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;router.js&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;menuList&#9;null&#9;null&#10;shrinka&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/main-components/shrinkable-menu/shrinkable-menu.vue&#10;app&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/app.vue&#10;changemenutheme&#9;null&#9;null&#10;addopen&#9;null&#9;null&#10;resize&#9;null&#9;null&#10;shrinkable-menu&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/main-components/shrinkable-menu/shrinkable-menu.vue&#10;env&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -635,20 +285,20 @@
       <workItem from="1532504444766" duration="10931000" />
       <workItem from="1532518424565" duration="13339000" />
       <workItem from="1532582076203" duration="19827000" />
+      <workItem from="1532654349753" duration="26421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74371000" />
+    <option name="totallyTimeSpent" value="100792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.16587678" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.165625" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3297414" />
       <window_info id="npm" order="0" side_tool="true" />
@@ -662,6 +312,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -669,19 +320,19 @@
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3297414" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.16614583" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.16614583" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,13 +346,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="a web managing platform based on iview-admin" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/github-gif/access.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/cropper-test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/logo.jpg" />
     <entry file="file://$PROJECT_DIR$/src/images/logo-min.jpg" />
     <entry file="file://$PROJECT_DIR$/src/libs/util.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -872,19 +516,6 @@
     <entry file="file://$PROJECT_DIR$/src/views/main-components/lockscreen/lockscreen.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/orgmng/departmentInfMng/departmentInfMng.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4428">
-          <caret line="185" column="40" selection-start-line="185" selection-start-column="40" selection-end-line="185" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/login.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -894,13 +525,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/login.less">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/config.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -916,28 +540,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/home/home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1317">
+        <state relative-caret-position="4968">
           <caret line="184" selection-start-line="184" selection-end-line="184" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
+        <state relative-caret-position="4104">
           <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Main.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="27">
           <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemOperatorMng/systemOperatorMng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="1377">
           <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -948,10 +572,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/stationInfRevise/stationInfRevise.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="27">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="94" column="163" selection-start-line="94" selection-start-column="163" selection-end-line="94" selection-end-column="163" />
         </state>
       </provider>
     </entry>
@@ -962,10 +593,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4023">
+          <caret line="40" column="168" selection-start-line="40" selection-start-column="168" selection-end-line="40" selection-end-column="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/orgmng/departmentInfMng/departmentInfMng.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4510">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedocmng.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="144" column="23" lean-forward="true" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i-table#0;n#div#1;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/wxMessageMng/wxMessageMng.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="173" column="33" selection-start-line="173" selection-start-column="33" selection-end-line="173" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#transition#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#Card#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#transition#0;n#Col#1;n#Row#0;n#div#1;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#div#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
+        <state relative-caret-position="-675">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -977,34 +670,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedocmng.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i-table#0;n#div#1;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/wxMessageMng/wxMessageMng.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        <state relative-caret-position="243">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#Card#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#transition#0;n#Col#1;n#Row#0;n#div#1;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#Modal#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#Form#0;n#Modal#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

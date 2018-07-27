@@ -61,7 +61,7 @@ export const otherRouter = {
         { path: 'order/:order_id', title: '订单详情', name: 'order-info', component: () => import('@/views/advanced-router/component/order-info.vue') }, // 用于展示动态路由
         { path: 'shopping', title: '购物详情', name: 'shopping', component: () => import('@/views/advanced-router/component/shopping-info.vue') }, // 用于展示带参路由
         { path: 'message', title: '消息中心', name: 'message_index', component: () => import('@/views/message/message.vue') },
-        { path: 'maintenancedocmng',title:'维护单明细',name: 'docdetail',component: ()=>import('@/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue')}
+        { path: 'maintenancedocmng',title:'维护单明细',name: 'docdetail',component: ()=>import('@/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue')},
     ]
 };
 
@@ -84,12 +84,16 @@ export const appRouter = [
         children:[{path:'index',title:'报障单管理',name:'reportMNG_index',component:()=> import('@/views/reportMNG/reportMNG.vue')}]
     },
     {
-        path:'/orgmng/departmentInfMng',
+        path:'/orgmng',
         icon: "network",
         name: 'departmentInfMng',
-        title: "气象局信息管理",
+        title: "机构信息管理",
         component:Main,
-        children:[{path:'index',title:'气象局信息管理',name:'departmentInfMng_index',component:()=> import('@/views/orgmng/departmentInfMng/departmentInfMng.vue')}]
+        children:[
+            {path:'/departmentInfMng',title:'气象局信息管理',name:'departmentInfMng_index',component:()=> import('@/views/orgmng/departmentInfMng/departmentInfMng.vue')},
+            {path:'/stationMng',title:'台站信息管理',name:'stationInfMng_index',component:()=> import('@/views/orgmng/stationMng/stationMng.vue')},
+            {path:"/maintenanceOrgMng",title:'维护公司信息管理',name:'maintenanceOrgMng_index',component:()=>import('@/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue')}
+            ]
     },
     {
         path:"/staffmng",
