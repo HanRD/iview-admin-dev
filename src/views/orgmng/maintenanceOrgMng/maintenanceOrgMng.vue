@@ -3,6 +3,8 @@
         <div id="table" style="padding:10px">
             <Card>
             <Form :model="query" inline>
+                <Row type="flex" justify="space-between">
+                    <Col>
                 <FormItem>
                     <Select v-model="query.province" placeholder="请选择省/直辖市">
                         <Option v-for="item in provincelist" :value="item.value" :key="item.value">{{item.label}}</Option>
@@ -11,25 +13,26 @@
                 <FormItem>
                     <Input v-model="query.companyName" placeholder="请输入公司名称" />
                 </FormItem>
-                <Button type="primary" @click="search">搜索</Button>
+                        <Button type="primary" @click="search">搜索</Button></Col>
+                    <Col><Button type="primary" @click="addNewCompany">新增维护公司信息</Button></Col>
+                </Row>
             </Form>
             <Table :columns="companyTableColumn" :data="companyTableData" height=300></Table>
             </Card>
-            <Button @click="showModal=true" long>测试</Button>
         </div>
         <Row>
             <Col span="12">
         <div id="stationInCharge" style="padding: 10px">
             <Card>
                 <Row type="flex" justify="space-between"><Col>保修保养台站:</Col><Col><Button type="primary" @click="resetStationInCharge">重设保修保养台站</Button></Col></Row>
-                <Table :columns="stationInChargeColumn" :data="stationInChargeData" height=300></Table>
+                <Table :columns="stationInChargeColumn" :data="stationInChargeData" height=350></Table>
             </Card>
         </div></Col>
             <Col span="12">
                 <div id="staff" style="padding:10px">
                     <Card>
                 <Row type="flex" justify="space-between"><Col>维护人员信息:</Col><Col><Button type="primary" @click="setStationForStaff">配置维修人员负责台站</Button></Col></Row>
-                <Table :columns="simplifiedStaffTableColumn" :data="simplifiedStaffTableData" height="300"></Table>
+                <Table :columns="simplifiedStaffTableColumn" :data="simplifiedStaffTableData" height="350"></Table>
                     </Card>
                 </div>
             </Col>
@@ -154,6 +157,9 @@
             },
             search(){
                 console.log(this.query);
+            },
+            addNewCompany(){
+                console.log("addNewCompany")
             },
             setStationForStaff(){
                 console.log("setStationForStaff")
