@@ -119,7 +119,12 @@ export const appRouter = [
         name:"systemMng",
         title:"系统信息管理",
         component:Main,
-        children:[{path:'/systemOperatorMng',title:"系统操作员管理",name:"systemOperatorMng",component:()=> import('@/views/systemMng/systemOperatorMng/systemOperatorMng.vue')}]
+        children:[
+            {path:'/systemParameterMng',title:"系统参数管理",name:"systemParameterMng",component:()=> import('@/views/systemMng/systemParameterMng/systemParameterMng.vue')},
+            {path:'/systemOperatorMng',title:"系统操作员管理",name:"systemOperatorMng",component:()=> import('@/views/systemMng/systemOperatorMng/systemOperatorMng.vue')},
+            {path:'/systemLogQuery',title:"系统操作日志查询",name:"systemLogQuery",component:()=> import('@/views/systemMng/systemLogQuery/systemLogQuery.vue')},
+            {path:'/systemBroadcastMng',title:"系统公告管理",name:"systemBroadcastMng",component:()=>import('@/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue')},
+            {path:'/maintenanceParametersMng',title:"维修参数管理",name:"maintenanceParametersMng",component:()=>import('@/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue')}]
     }
 ];
 
