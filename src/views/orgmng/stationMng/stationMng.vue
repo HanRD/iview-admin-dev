@@ -37,9 +37,9 @@
                         <Row type="flex" justify="space-between">
                         <Col>台站信息明细</Col>
                             <Col>
-                    <Tag v-if="stationData.isBackbone==true" color="yellow">骨干站</Tag>
+                    <Tag v-if="stationData.isBackbone===true" color="yellow">骨干站</Tag>
                     <Tag v-else>非骨干站</Tag>
-                            <Tag v-if="stationData.status==0" color="red">禁用</Tag>
+                            <Tag v-if="stationData.status===0" color="red">禁用</Tag>
                                 <Tag v-else color="green">正常</Tag></Col>
                         </Row></p>
                     <div>

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab13b27a-87d6-4d75-a7c8-0ea10c98896d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/orgmng/maintenanceTeamMng/maintenanceTeamMng.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/systemMng/systemParameterMng/systemParameterMng.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/systemMng/systemParameterMng/systemParameterMng.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +29,8 @@
       <file leaf-file-name="stationMng.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            <state relative-caret-position="-1035">
+              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -32,7 +38,7 @@
       <file leaf-file-name="maintenanceOrgMng.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="-46">
               <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -46,28 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="staffInfMng.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#Col#2;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#Col#2;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#Col#0;n#Row#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#Col#1;n#Row#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="126" column="188" selection-start-line="126" selection-start-column="188" selection-end-line="126" selection-end-column="188" />
+            <state relative-caret-position="1656">
+              <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -75,8 +64,8 @@
       <file leaf-file-name="maintenancedocmng.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedocmng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="146" column="30" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+            <state relative-caret-position="1454">
+              <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i-table#0;n#div#1;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -85,22 +74,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maintenanceParametersMng.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue">
+      <file leaf-file-name="systemLogQuery.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemLogQuery/systemLogQuery.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="495">
+              <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="systemBroadcastMng.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maintenanceParametersMng.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2725">
+              <caret line="35" column="110" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="systemParameterMng.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemParameterMng/systemParameterMng.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="systemBroadcastMng.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="39" column="75" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+            <state relative-caret-position="-1635">
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#Modal#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#Modal#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maintenanceTeamMng.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/orgmng/maintenanceTeamMng/maintenanceTeamMng.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +130,7 @@
       <file leaf-file-name="maintenancedoc.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1373">
+            <state relative-caret-position="511">
               <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
             </state>
           </provider>
@@ -147,14 +168,15 @@
         <option value="$PROJECT_DIR$/src/views/stationInfRevise/stationInfRevise.vue" />
         <option value="$PROJECT_DIR$/src/views/staffmng/staffSalaryMng/staffSalaryMng.vue" />
         <option value="$PROJECT_DIR$/src/views/wxMessageMng/wxMessageMng.vue" />
-        <option value="$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue" />
-        <option value="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" />
         <option value="$PROJECT_DIR$/src/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue" />
-        <option value="$PROJECT_DIR$/src/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue" />
-        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/views/systemMng/systemLogQuery/systemLogQuery.vue" />
         <option value="$PROJECT_DIR$/src/views/systemMng/systemParameterMng/systemParameterMng.vue" />
         <option value="$PROJECT_DIR$/src/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue" />
+        <option value="$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue" />
+        <option value="$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue" />
+        <option value="$PROJECT_DIR$/src/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
+        <option value="$PROJECT_DIR$/src/views/orgmng/maintenanceTeamMng/maintenanceTeamMng.vue" />
       </list>
     </option>
   </component>
@@ -205,6 +227,11 @@
             <path>
               <item name="iview-admin-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="iview-admin-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iview-admin-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iview-admin-dev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,6 +240,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="iview-admin-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iview-admin-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="orgmng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iview-admin-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iview-admin-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="orgmng" type="462c0819:PsiDirectoryNode" />
+              <item name="maintenanceTeamMng" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,7 +262,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="mainten&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/maintenancedocmng/maintenancedocmng.vue&#10;rou&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;stationTa&#9;null&#9;null&#10;examinety&#9;null&#9;null&#10;r&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;staff&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/staffmng/staffInfMng/staffInfMng.vue&#10;tree&#9;FILE&#9;file://D:/vue/iview-admin-dev/node_modules/iview/src/components/tree/tree.vue&#10;depar&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/orgmng/departmentInfMng/departmentInfMng.vue&#10;router&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;router.js&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;menuList&#9;null&#9;null&#10;shrinka&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/main-components/shrinkable-menu/shrinkable-menu.vue&#10;app&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/app.vue&#10;changemenutheme&#9;null&#9;null&#10;addopen&#9;null&#9;null&#10;resize&#9;null&#9;null&#10;shrinkable-menu&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/main-components/shrinkable-menu/shrinkable-menu.vue&#10;env&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="parameter&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/systemMng/systemParameterMng&#10;param&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue&#10;mainten&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/maintenancedocmng/maintenancedocmng.vue&#10;rou&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;stationTa&#9;null&#9;null&#10;examinety&#9;null&#9;null&#10;r&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;staff&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/staffmng/staffInfMng/staffInfMng.vue&#10;tree&#9;FILE&#9;file://D:/vue/iview-admin-dev/node_modules/iview/src/components/tree/tree.vue&#10;depar&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/orgmng/departmentInfMng/departmentInfMng.vue&#10;router&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;router.js&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/router/router.js&#10;menuList&#9;null&#9;null&#10;shrinka&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/main-components/shrinkable-menu/shrinkable-menu.vue&#10;app&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/app.vue&#10;changemenutheme&#9;null&#9;null&#10;addopen&#9;null&#9;null&#10;resize&#9;null&#9;null&#10;shrinkable-menu&#9;FILE&#9;file://D:/vue/iview-admin-dev/src/views/main-components/shrinkable-menu/shrinkable-menu.vue&#10;env&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -273,7 +315,9 @@
       <workItem from="1532582076203" duration="19827000" />
       <workItem from="1532654349753" duration="27510000" />
       <workItem from="1532855740615" duration="8096000" />
-      <workItem from="1532915275488" duration="19548000" />
+      <workItem from="1532915275488" duration="19816000" />
+      <workItem from="1533000629196" duration="6063000" />
+      <workItem from="1533014368110" duration="17717000" />
     </task>
     <task id="LOCAL-00001" summary="a web managing platform based on iview-admin">
       <created>1532687412634</created>
@@ -289,21 +333,29 @@
       <option name="project" value="LOCAL" />
       <updated>1532863806871</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="a web managing platform based on iview-admin">
+      <created>1532950787142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532950787142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129525000" />
+    <option name="totallyTimeSpent" value="153573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.165625" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.165625" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3297414" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3297414" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -316,7 +368,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,11 +412,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="a web managing platform based on iview-admin" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/styles/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/form/work-flow/work-flow.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27">
@@ -588,38 +634,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="126" column="188" selection-start-line="126" selection-start-column="188" selection-end-line="126" selection-end-column="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/staffmng/staffInfMng/staffInfMng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#Col#0;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Col#1;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Col#2;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#Col#2;n#Row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Col#0;n#Row#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#Col#1;n#Row#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="-46">
           <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -632,27 +663,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemLogQuery/systemLogQuery.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/orgmng/stationMng/stationMng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1035">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemParameterMng/systemParameterMng.vue">
+    <entry file="file://$PROJECT_DIR$/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+        <state relative-caret-position="1656">
+          <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedocmng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="146" column="30" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+        <state relative-caret-position="1454">
+          <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#div#0;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i-table#0;n#div#1;n#Card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -660,26 +688,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/maintenancedocmng/maintenancedoc/maintenancedoc.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemLogQuery/systemLogQuery.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1373">
-          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+        <state relative-caret-position="495">
+          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="-2725">
+          <caret line="35" column="110" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemParameterMng/systemParameterMng.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="39" column="75" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+        <state relative-caret-position="-1635">
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#Modal#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#Modal#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/orgmng/maintenanceTeamMng/maintenanceTeamMng.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

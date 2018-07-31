@@ -10,12 +10,13 @@
     <div>
         <Modal v-model="showmodal">
             <p slot="header">修改系统参数</p>
-            <Form :model="systemParameterData">
-                <FormItem><Input type="text" v-model="systemParameterData.name" readonly/></FormItem>
-                <FormItem><Input type="text" v-model="systemParameterData.parameters" /></FormItem>
-                <FormItem><Input type="text" v-model="systemParameterData.description" /></FormItem>
-                <FormItem><Input type="text" v-model="systemParameterData.note" /></FormItem>
+            <Form :model="systemParameterData" :label-width="80" label-position="left">
+                <FormItem label="参数名称:"><Input type="text" v-model="systemParameterData.name" readonly/></FormItem>
+                <FormItem label="参数数值:"><Input type="text" v-model="systemParameterData.parameters" /></FormItem>
+                <FormItem label="参数描述:"><Input type="text" v-model="systemParameterData.description" /></FormItem>
+                <FormItem label="备注:"><Input type="text" v-model="systemParameterData.note" /></FormItem>
             </Form>
+            <div slot="footer"><Button type="ghost" @click="quitModal()">取消</Button><Button type="primary" @click="saveChange()">保存</Button></div>
         </Modal>
     </div></div>
 </template>
@@ -27,6 +28,7 @@
             return{
                 showmodal:false,
                 systemParameterData:{
+                    No:Number,
                   name:"",
                   parameters:"",
                   description:"",
@@ -70,6 +72,16 @@
             },
             downloadTableData(){
                 this.$refs.table.exportCsv({filename:"系统参数表格"})
+            },
+            quitModal(){
+                this.showmodal=false
+            },
+            saveChange(){
+                const index=this.systemParameterData.No-1;
+                const newrowdata=this.systemParameterData;
+                console.log(index);
+                Object.assign(this.systemParameterTableData[index],newrowdata);
+                this.showmodal=false
             }
         }
     }

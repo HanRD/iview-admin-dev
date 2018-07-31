@@ -29,8 +29,8 @@
                    <Row type="flex" justify="space-between">
                        <Col><p>公告信息</p></Col>
                        <Col>
-                           <Tag v-if="broadcastData.status==0"  color="#2D8CF0">新提交/待审核</Tag>
-                           <Tag v-else-if="broadcastData.status==1" color="green">审核通过/生效</Tag>
+                           <Tag v-if="broadcastData.status===0"  color="#2D8CF0">新提交/待审核</Tag>
+                           <Tag v-else-if="broadcastData.status===1" color="green">审核通过/生效</Tag>
                            <Tag v-else color="red">审核退回/待修改</Tag></Col>
                    </Row></div>
                    <div style="padding:5px 0px;">接收人员:</div>
@@ -229,5 +229,7 @@
 </script>
 
 <style scoped>
-
+    .flip-list-move {
+        transition: transform 1s;
+    }
 </style>

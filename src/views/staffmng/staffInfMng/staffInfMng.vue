@@ -16,35 +16,33 @@
                 <div style="padding: 10px">
                 <Card><div>
         <div id="query">
-            <Form :model="query" justify="space-between" :label-width=60 label-position="left" inline>
-                <Row type="flex" :gutter="12">
-                    <Col span="12">
-                <FormItem prop="username" label="用户名:">
-                   <Input type="text" v-model="query.username"/>
-                </FormItem>
+            <Form :model="query" :label-width=60 label-position="left" inline>
+                <Row type="flex" justify="space-between">
+                    <Col>
+                        <p><FormItem prop="username" label="用户名:">
+                            <Input type="text" v-model="query.username"/>
+                        </FormItem></p>
+                        <p>
+                        <FormItem prop="mobile" label="手机号:">
+                            <Input type="text" v-model="query.mobile"/>
+                        </FormItem></p>
                     </Col>
-                    <Col span="12">
-                <FormItem prop="name" label="姓名:">
-                    <Input type="text" v-model="query.name"/>
-                </FormItem>
-                    </Col>
-                </Row>
-                <Row type="flex" justify="space-between" :gutter="12">
-                    <Col span="12">
-                <FormItem prop="mobile" label="手机号:">
-                    <Input type="text" v-model="query.mobile"/>
-                </FormItem>
-                    </Col>
-                    <Col span="8">
-                <FormItem prop="station" label="台站:">
-                    <Select v-model="query.station">
-                        <Option v-for="item in stationList" :key="item.value" :value="item.value">{{item.title}}</Option>
-                    </Select>
-                </FormItem></Col>
-                        <Col>
-                        <Button type="primary" @on-click="search">查询</Button>
+                    <Col>
+                        <p>
+                        <FormItem prop="name" label="姓名:">
+                            <Input type="text" v-model="query.name"/>
+                        </FormItem></p>
+                        <p><Row type="flex" justify="space-between"><Col>
+                        <FormItem prop="station" label="台站:">
+                        <Select v-model="query.station">
+                            <Option v-for="item in stationList" :key="item.value" :value="item.value">{{item.title}}</Option>
+                        </Select>
+                        </FormItem></Col>
+                            <Col>
+                                <Button type="primary" @on-click="search">查询</Button></Col></Row></p>
                     </Col>
                 </Row>
+
             </Form>
         </div>
         <div id="table">
@@ -131,7 +129,7 @@
                             <Col><p>维护任务级别匹配信息</p></Col>
                             <Col><p><Button type="primary">重设任务级别</Button></p></Col>
                         </Row>
-                        <Table :columns="tasklevelTableColumns" :data="tasklevelTableData" height=270></Table>
+                        <Table :columns="staffTasklevelTableColumns" :data="staffTasklevelTableData" height=270></Table>
                     </Card>
                 </div>
             </Col>
@@ -207,11 +205,11 @@
                     {key:"stationName",title:"台站名称"},
                     {key:"department",title:"所属气象局"}],
                 stationTableData:[{},{},{},{},{},{},{},{},{}],
-                tasklevelTableColumns:[
+                staffTasklevelTableColumns:[
                     {key:"No",title:"序号"},
                     {key:"maintenanceCategory",title:"维护类别"},
                     {key:"tasklevel",title:"任务级别"}],
-                tasklevelTableData:[{},{},{},{},{},{},{}],
+                staffTasklevelTableData:[{},{},{},{},{},{},{}],
                 tabledata:[{},{},{},{},{},{},{}],
                 staffdata:{
                     username:"",

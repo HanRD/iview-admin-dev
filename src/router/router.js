@@ -71,60 +71,60 @@ export const appRouter = [
         path: '/maintenancedoc',
         icon: 'document-text',
         name: 'documentmng',
-        title: '维护单管理',
+        title: '维护单',
         component:Main,
-        children:[{path:'index',title:'维护单管理',name:'documentmng_index',component: ()=> import('@/views/maintenancedocmng/maintenancedocmng.vue')}]
+        children:[{path:'index',title:'维护单',name:'documentmng_index',component: ()=> import('@/views/maintenancedocmng/maintenancedocmng.vue')}]
     },
     {
         path:'/reportMNG',
         icon: "document",
         name: 'reportMNG',
-        title: "报障单管理",
+        title: "报障单",
         component:Main,
-        children:[{path:'index',title:'报障单管理',name:'reportMNG_index',component:()=> import('@/views/reportMNG/reportMNG.vue')}]
+        children:[{path:'index',title:'报障单',name:'reportMNG_index',component:()=> import('@/views/reportMNG/reportMNG.vue')}]
     },
     {
         path:'/orgmng',
         icon: "network",
         name: 'departmentInfMng',
-        title: "机构信息管理",
+        title: "机构信息",
         component:Main,
         children:[
-            {path:'/departmentInfMng',title:'气象局信息管理',name:'departmentInfMng_index',component:()=> import('@/views/orgmng/departmentInfMng/departmentInfMng.vue')},
-            {path:'/stationMng',title:'台站信息管理',name:'stationInfMng_index',component:()=> import('@/views/orgmng/stationMng/stationMng.vue')},
-            {path:"/maintenanceOrgMng",title:'维护公司信息管理',name:'maintenanceOrgMng_index',component:()=>import('@/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue')}
+            {path:'/departmentInfMng',title:'气象局信息',name:'departmentInfMng_index',component:()=> import('@/views/orgmng/departmentInfMng/departmentInfMng.vue')},
+            {path:'/stationMng',title:'台站信息',name:'stationInfMng_index',component:()=> import('@/views/orgmng/stationMng/stationMng.vue')},
+            {path:"/maintenanceOrgMng",title:'维护公司信息',name:'maintenanceOrgMng_index',component:()=>import('@/views/orgmng/maintenanceOrgMng/maintenanceOrgMng.vue')}
             ]
     },
     {
         path:"/staffmng",
         icon: 'person',
         name: "staffMng",
-        title: "人员管理",
+        title: "人员",
         component:Main,
         children:[
-            {path:'staffInfMng',title:"维护人员信息管理",name:'staffInfMng',component:()=> import('@/views/staffmng/staffInfMng/staffInfMng.vue')},
-            {path:'staffSalaryMng',title:"人员工资管理",name:'staffSalaryMng',component:()=> import('@/views/staffmng/staffSalaryMng/staffSalaryMng')}]
+            {path:'staffInfMng',title:"维护人员信息",name:'staffInfMng',component:()=> import('@/views/staffmng/staffInfMng/staffInfMng.vue')},
+            {path:'staffSalaryMng',title:"人员工资",name:'staffSalaryMng',component:()=> import('@/views/staffmng/staffSalaryMng/staffSalaryMng')}]
     },
     {
         path:"/wxMessageMng",
         icon: "android-textsms",
         name: "wxMessageMng",
-        title: "微信信息管理",
+        title: "微信信息",
         component:Main,
-        children:[{path:'index',title:'微信信息管理',name:"wxMessageMng_index",component:()=> import('@/views/wxMessageMng/wxMessageMng.vue')}]
+        children:[{path:'index',title:'微信信息',name:"wxMessageMng_index",component:()=> import('@/views/wxMessageMng/wxMessageMng.vue')}]
     },
     {
         path:"/systemMng",
         icon:"gear-b",
         name:"systemMng",
-        title:"系统信息管理",
+        title:"系统信息",
         component:Main,
         children:[
-            {path:'/systemParameterMng',title:"系统参数管理",name:"systemParameterMng",component:()=> import('@/views/systemMng/systemParameterMng/systemParameterMng.vue')},
-            {path:'/systemOperatorMng',title:"系统操作员管理",name:"systemOperatorMng",component:()=> import('@/views/systemMng/systemOperatorMng/systemOperatorMng.vue')},
+            {path:'/systemParameterMng',title:"系统参数",name:"systemParameterMng",component:()=> import('@/views/systemMng/systemParameterMng/systemParameterMng.vue')},
+            {path:'/systemOperatorMng',title:"系统操作员",name:"systemOperatorMng",component:()=> import('@/views/systemMng/systemOperatorMng/systemOperatorMng.vue')},
             {path:'/systemLogQuery',title:"系统操作日志查询",name:"systemLogQuery",component:()=> import('@/views/systemMng/systemLogQuery/systemLogQuery.vue')},
-            {path:'/systemBroadcastMng',title:"系统公告管理",name:"systemBroadcastMng",component:()=>import('@/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue')},
-            {path:'/maintenanceParametersMng',title:"维修参数管理",name:"maintenanceParametersMng",component:()=>import('@/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue')}]
+            {path:'/systemBroadcastMng',title:"系统公告",name:"systemBroadcastMng",component:()=>import('@/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue')},
+            {path:'/maintenanceParametersMng',title:"维修参数",name:"maintenanceParametersMng",component:()=>import('@/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue')}]
     }
 ];
 
