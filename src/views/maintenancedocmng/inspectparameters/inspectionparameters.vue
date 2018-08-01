@@ -33,7 +33,7 @@
                 <FormItem><Input v-model="parameterdata.name" /></FormItem>
                 <FormItem>
                     <Select v-model="parameterdata.datatype">
-                        <Option v-for="item in typelist"></Option>
+                        <Option v-for="item in typelist" :key="item.value" :value="item.value">{{item.label}}</Option>
                     </Select>
                 </FormItem>
             </Form>

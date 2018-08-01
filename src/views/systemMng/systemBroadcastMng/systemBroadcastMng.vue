@@ -4,7 +4,7 @@
            <Card>
                <Row type="flex" justify="space-between"><Col>
                <Form :model="query" inline>
-                   <FormItem><DatePicker v-model="query.daterange[0]" placeholder="请选择起始日期"></DatePicker><DatePicker v-model="query.daterange[1]" placeholder="请选择结束日期"></DatePicker></FormItem>
+                   <FormItem><DatePicker type="daterange" split-panels v-model="query.daterange" placeholder="请选择起始结束日期"></DatePicker></FormItem>
                    <FormItem><Input v-model="query.submitby" placeholder="请输入提交人姓名" /></FormItem>
                    <FormItem><Input v-model="query.inspectby" placeholder="请输入审核人姓名" /></FormItem>
                    <FormItem>
