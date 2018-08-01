@@ -299,7 +299,7 @@ util.generateRandomName=function(){
     return fullname;
 };
 util.getRandomCompany=function(){
-    let companylist = ["天识科技有限公司","测试公司","成都锦天联华科技有限责任公司","我去修系统","资阳市气象局"];
+    const companylist = ["天识科技有限公司","测试公司","成都锦天联华科技有限责任公司","我去修系统","资阳市气象局"];
     const arrlength=companylist.length;
     const i = parseInt(Math.random()*arrlength);
     let company=companylist[i];
@@ -315,6 +315,44 @@ util.getRandomUsername=()=>{
         result.push(Math.round(Math.random()*9))
     }
     return result.join('');
+};
+util.renderTableNoColumn=(data)=>{
+    data.push({
+        key:"No",
+        title:"序号",
+        render:(h,params)=>{
+            const index=params.index+1;
+            return h("div",index)
+        }
+    })
+    return data;
+};
+//数据列表头生成
+util.renderTableNormalColumn=(data,keyArr,titleArr)=>{
+    for(let i=0;i<keyArr.length;i++){
+        data.push({
+            key:keyArr[i],
+            title:titleArr[i]
+        })
+    }
+    return data
+};
+util.mockCompanyList=()=>{
+    let data=[];
+    const companylist = ["天识科技有限公司","测试公司","成都锦天联华科技有限责任公司","我去修系统","资阳市气象局"];
+    for (let i=0;i<companylist.length;i++){
+        data.push({
+            label:companylist[i]
+        })
+    }
+    return data
+};
+util.mockblankrow=()=>{
+    let data=[];
+    for(let i=0;i<10;i++){
+        data.push({})
+    }
+    return data
 };
 
 export default util;

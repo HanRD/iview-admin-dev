@@ -71,9 +71,12 @@ export const appRouter = [
         path: '/maintenancedoc',
         icon: 'document-text',
         name: 'documentmng',
-        title: '维护单',
+        title: '维护',
         component:Main,
-        children:[{path:'index',title:'维护单',name:'documentmng_index',component: ()=> import('@/views/maintenancedocmng/maintenancedocmng.vue')}]
+        children:[
+            {path:'index',title:'维护单',name:'documentmng_index',component: ()=> import('@/views/maintenancedocmng/maintenancedocmng.vue')},
+            {path:"inspectionPlanMng",title:"巡检方案",name:"inspectionPlanMng_index",component:()=>import("@/views/maintenancedocmng/inspectionPlanMng/inspectionPlanMng.vue")},
+            {path:"inspectionparameters",title:"巡检项目",name:"inspectionparameters_index",component:()=>import("@/views/maintenancedocmng/inspectparameters/inspectionparameters.vue")}]
     },
     {
         path:'/reportMNG',
@@ -81,7 +84,9 @@ export const appRouter = [
         name: 'reportMNG',
         title: "报障单",
         component:Main,
-        children:[{path:'index',title:'报障单',name:'reportMNG_index',component:()=> import('@/views/reportMNG/reportMNG.vue')}]
+        children:[
+            {path:'index',title:'报障单',name:'reportMNG_index',component:()=> import('@/views/reportMNG/reportMNG.vue')},
+            {path:'/reportcategoryMng',title:'故障分类',name:"reportcategoryMng",component:()=>import('@/views/reportMNG/reportcategoryMng/reportcategoryMng.vue')}]
     },
     {
         path:'/orgmng',
@@ -99,11 +104,14 @@ export const appRouter = [
         path:"/staffmng",
         icon: 'person',
         name: "staffMng",
-        title: "人员",
+        title: "维护人员",
         component:Main,
         children:[
-            {path:'staffInfMng',title:"维护人员信息",name:'staffInfMng',component:()=> import('@/views/staffmng/staffInfMng/staffInfMng.vue')},
+            {path:'staffInfMng',title:"人员信息",name:'staffInfMng',component:()=> import('@/views/staffmng/staffInfMng/staffInfMng.vue')},
             {path:'staffSalaryMng',title:"人员工资",name:'staffSalaryMng',component:()=> import('@/views/staffmng/staffSalaryMng/staffSalaryMng')},
+            {path:'bonusMng',title:"奖惩",name:"bonusMng",component:()=>import('@/views/staffmng/bonusMng/bonusMng.vue')},
+            {path:'bonusRuleMng',title:"工资奖励规则",name:"bonusRuleMng",component:()=>import('@/views/staffmng/bonusRuleMng/bonusRuleMng.vue')},
+            {path:"paymentMng",title:"付款管理",name:"paymentMng",component:()=>import('@/views/staffmng/paymentMng/paymentMng.vue')},
             {path:"maintenanceTeamMng",title:"维护团队",name:"maintenanceTeamMng",component:()=>import('@/views/staffmng/maintenanceTeamMng/maintenanceTeamMng.vue')}
         ]
     },
@@ -126,6 +134,7 @@ export const appRouter = [
             {path:'/systemOperatorMng',title:"系统操作员",name:"systemOperatorMng",component:()=> import('@/views/systemMng/systemOperatorMng/systemOperatorMng.vue')},
             {path:'/systemLogQuery',title:"系统操作日志查询",name:"systemLogQuery",component:()=> import('@/views/systemMng/systemLogQuery/systemLogQuery.vue')},
             {path:'/systemBroadcastMng',title:"系统公告",name:"systemBroadcastMng",component:()=>import('@/views/systemMng/systemBroadcastMng/systemBroadcastMng.vue')},
+            {path:'/serviceProgressBroadcastSetting',title:"服务进度通知设置",name:"serviceProgressBroadcastSetting",component:()=>import('@/views/systemMng/serviceProgressBroadcastSetting/serviceProgressBroadcastSetting.vue')},
             {path:'/maintenanceParametersMng',title:"维修参数",name:"maintenanceParametersMng",component:()=>import('@/views/systemMng/maintenanceParametersMng/maintenanceParametersMng.vue')}]
     }
 ];
