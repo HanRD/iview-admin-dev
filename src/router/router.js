@@ -103,7 +103,9 @@ export const appRouter = [
         component:Main,
         children:[
             {path:'staffInfMng',title:"维护人员信息",name:'staffInfMng',component:()=> import('@/views/staffmng/staffInfMng/staffInfMng.vue')},
-            {path:'staffSalaryMng',title:"人员工资",name:'staffSalaryMng',component:()=> import('@/views/staffmng/staffSalaryMng/staffSalaryMng')}]
+            {path:'staffSalaryMng',title:"人员工资",name:'staffSalaryMng',component:()=> import('@/views/staffmng/staffSalaryMng/staffSalaryMng')},
+            {path:"maintenanceTeamMng",title:"维护团队",name:"maintenanceTeamMng",component:()=>import('@/views/staffmng/maintenanceTeamMng/maintenanceTeamMng.vue')}
+        ]
     },
     {
         path:"/wxMessageMng",

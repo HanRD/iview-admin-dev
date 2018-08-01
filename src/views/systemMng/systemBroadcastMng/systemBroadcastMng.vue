@@ -56,6 +56,7 @@
 </template>
 
 <script>
+    import util from '../../../libs/util.js'
     export default {
         name: "systemBroadcastMng",
         data:function(){
@@ -152,8 +153,8 @@
                     data.push({
                         No:i,
                         ID:("000000"+Math.floor(Math.random()*100)).slice(-6),
-                        name:this.getRandomName(),
-                        company:this.getRandomCompany(),
+                        name:util.generateRandomName(),
+                        company:util.getRandomCompany(),
                         status:Math.floor(Math.random()*2)
                     })
                 }
@@ -194,13 +195,6 @@
         return fullname;
 
     },
-            getRandomCompany(){
-                let companylist = ["天识科技有限公司","测试公司","成都锦天联华科技有限责任公司","我去修系统","资阳市气象局"];
-                const arrlength=companylist.length;
-                const i = parseInt(Math.random()*arrlength);
-                let company=companylist[i];
-                return company;
-            },
             mockReceiverTableColumns(){
                 let data=[];
                 const keyArr=["No","ID","name","company"];
