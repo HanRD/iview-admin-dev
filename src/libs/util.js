@@ -354,5 +354,52 @@ util.mockblankrow=()=>{
     }
     return data
 };
+util.generateRandomTree=(type)=>{
+    let data=[];
+    let labelPrefix;
+    if (type==='staff'){
+        labelPrefix="员工"
+    }
+    else if(type==='station'){
+        labelPrefix='台站'
+    }
+    else return;
+    for(let i=0;i<5;i++){
+        if(Math.round(Math.random())){
+            let children=[];
+            for (let j=0;j<5;j++){
+                let ID=('000000'+Math.round(Math.random()*1000)).slice(-6);
+            children.push({
+                value:type+ID,
+                label:labelPrefix+ID,
+
+            })}
+            data.push({
+                value:type+i+1,
+                label:labelPrefix+i+1,
+                children:children
+            })
+        }
+        else{
+            data.push({
+                value:type+i+1,
+                label:labelPrefix+i+1,
+            });
+        }
+    }
+    console.log(data);
+    return data;
+};
+util.getStandardSelectList=()=>{
+    let data=[];
+    const month=['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
+    for(let i=0;i<month.length;i++){
+        data.push({
+            value:month[i],
+            label:month[i]
+        })
+    }
+    return data;
+};
 
 export default util;

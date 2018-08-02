@@ -3,21 +3,21 @@
         <div style="padding: 10px;background: #eee;">
             <Card>
                 <div>
-                    <Form inline>
+                    <Form :model="paymentquery" inline>
                         <Row type="flex" justify="space-between">
                             <Col>
                         <FormItem>
-                            <Select placeholder="请选择维护公司">
+                            <Select v-model="paymentquery.company" placeholder="请选择维护公司">
                             </Select>
                         </FormItem>
                         <FormItem>
-                            <Input placeholder="请输入维护人员姓名" />
+                            <Input v-model="paymentquery.staffname" placeholder="请输入维护人员姓名" />
                         </FormItem>
                         <FormItem>
-                            <DatePicker type="daterange" split-panels placeholder="请选择起始结束日期"></DatePicker>
+                            <DatePicker v-model="paymentquery.daterange" type="daterange" split-panels placeholder="请选择起始结束日期"></DatePicker>
                         </FormItem>
                         <FormItem>
-                            <Select placeholder="请选择付款状态">
+                            <Select v-model="paymentquery.status" placeholder="请选择付款状态">
                             </Select>
                         </FormItem>
                                 <Button type="primary" @click="query">查询</Button>
@@ -42,6 +42,12 @@
         name: "paymentMng",
         data:function(){
             return{
+                paymentquery:{
+                    company:"",
+                    staffname:"",
+                    daterange:[],
+                    status:""
+                },
                 paymentTableColumns:this.mockpaymentColumns(),
                 paymentTableData:this.mockpaymentData(),
 
